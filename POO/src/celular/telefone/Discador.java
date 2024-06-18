@@ -1,6 +1,6 @@
-package celular;
+package celular.telefone;
 
-public class AparelhoTelefonico {
+public class Discador implements AparelhoTelefonico{
     public void ligar(String numero){
         System.out.println("Ligando para o número: " + numero);
     }
@@ -12,5 +12,4 @@ public class AparelhoTelefonico {
     public void iniciarCorreioVoz(){
         System.out.println("Abrindo correio de voz.");
     }
-
 }

@@ -1,6 +1,6 @@
-package celular;
+package celular.internet;
 
-public class NavegadorInternet {
+public class Dolphin implements NavegadorInternet {
     public void exibirPagina(String url) {
         System.out.println("Exibindo página.");
     }
